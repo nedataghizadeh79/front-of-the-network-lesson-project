@@ -79,7 +79,7 @@ const LandingPage = () => {
                 <br/>
 
 
-                <Inputs setUdp_tunnels={setUdp_tunnels}/>
+                <Inputs sendData={sendData} setUdp_tunnels={setUdp_tunnels}/>
 
 
             </section>

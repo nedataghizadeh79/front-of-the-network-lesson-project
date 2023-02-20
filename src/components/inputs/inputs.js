@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import './inputs.css'
 
-const Inputs=({setUdp_tunnels})=>{
+const Inputs=({setUdp_tunnels, sendData})=>{
     const [inputs, setInputs] = useState([{ listening_ip: '', listening_port: '', remote_ip: '', remote_port: '' }]);
 
     const handleAddInput = () => {
@@ -10,6 +10,7 @@ const Inputs=({setUdp_tunnels})=>{
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        sendData();
         // console.log(inputs);
     };
 
