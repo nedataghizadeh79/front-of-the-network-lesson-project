@@ -1,0 +1,23 @@
+.plus{
+    background-color: #d39ee8;
+    color: #6c6868;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+.submit{
+    background-color: #d39ee8;
+    color: #6c6868;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+input{
+    height: 25px;
+    border: #a19f9f 2px solid;
+}

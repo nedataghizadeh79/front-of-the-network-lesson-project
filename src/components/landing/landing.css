@@ -1,3 +1,39 @@
-img{
-    
+.xserver{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+label{
+    color: blueviolet;
+    font-size: large;
+    font-weight: bolder;
+    padding-right: 15px;
+}
+
+
+.verbosity_buttons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+
+.body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../assets/bgc.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.container{
+    margin-left: 10px;
+}
+
+
+.x{
+    color: #a818a8;
+    font-weight: bolder;
+    margin-left: 5px;
 }
